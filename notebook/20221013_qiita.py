@@ -4,8 +4,7 @@
 
 
 # In[29]:
-if __name__ == '__main__':
-
+def func():
 
 # pasdasをimport
     import pandas as pd
@@ -152,7 +151,7 @@ if __name__ == '__main__':
     plt.grid()
 # 図の表示
     plt.show
-    print(end)
+    print('end')
 
 
 # In[ ]:
