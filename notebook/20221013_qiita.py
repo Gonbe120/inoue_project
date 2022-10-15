@@ -150,7 +150,10 @@ def func():
 # グラフの背景に格子を描く
     plt.grid()
 # 図の表示
-    plt.show
+    plt.show()
+    dirname = './notebook/data/output/'
+    filename = dirname + 'img.png'
+    plt.savefig(filename)
     print('end')
 
 
